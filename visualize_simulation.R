@@ -7,6 +7,10 @@ visualize.simulation = function(sensitivity,
      # Lattice package
     require(lattice)
   
+    # convert
+    dev = array(as.numeric(unlist(device_specificity)))
+    clin = array(as.numeric(unlist(clinician_specificity)))
+    glauc = array(as.numeric(unlist(glaucoma_prevalence)))
   
     # Unpack the params from list.
     # TODO! There must be a better way to do this
@@ -36,7 +40,7 @@ visualize.simulation = function(sensitivity,
     # https://stackoverflow.com/questions/2540129/lattice-multiple-plots-in-one-window
     z_limits = c(0,1)
     
-    p1 = levelplot(z ~ x * y, data=data_dev_clin, xlab="Device Specificity", ylab='Clinician Specificity',
+    p1 = levelplot(data_dev_clin, xlab="Device Specificity", ylab='Clinician Specificity',
               col.regions = heat.colors(100)[length(heat.colors(100)):1], main=paste('Glaucoma Prevalence = ', g_prev),
               aspect=1, zlim=z_limits) # aspect=1 makes plot square
     
