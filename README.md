@@ -49,10 +49,10 @@ the most benefit.
 
 [9] Robin AL, Frick KD, Katz J, Budenz D, Tielsch JM. The Ocular Hypertension Treatment Study: Intraocular pressure
 lowering prevents the development of glaucoma, but does that mean we should treat before the onset of disease? *Arch
-Ophthalmol* 2004;122:376 –378. http://doi.org/10.1001/archopht.122.3.376 [Cited by 14](https://scholar.google.com.sg/scholar?client=ubuntu&um=1&ie=UTF-8&lr&cites=3304731438540953743)
+Ophthalmol* 2004;122:376 –378. http://doi.org/10.1001/archopht.122.3.376 - [Cited by 14](https://scholar.google.com.sg/scholar?client=ubuntu&um=1&ie=UTF-8&lr&cites=3304731438540953743)
 
 
-[38] Mansberger SL. A risk calculator to determine the probability of glaucoma. *J Glaucoma* 2004;13:345–347. https://www.researchgate.net/publication/8481156_A_Risk_Calculator_to_Determine_the_Probability_of_Glaucoma [Cited by 29](https://scholar.google.com.sg/scholar?client=ubuntu&um=1&ie=UTF-8&lr&cites=5948696291567823251)
+[38] Mansberger SL. A risk calculator to determine the probability of glaucoma. *J Glaucoma* 2004;13:345–347. https://www.researchgate.net/publication/8481156_A_Risk_Calculator_to_Determine_the_Probability_of_Glaucoma - [Cited by 29](https://scholar.google.com.sg/scholar?client=ubuntu&um=1&ie=UTF-8&lr&cites=5948696291567823251)
 
 [39]  Medeiros FA, Weinrab RN, Sample PA, et al. Validation of a predictive model to estimate the risk of conversion from
-ocular hypertension to glaucoma. *Arch Ophthalmol* 2005; 123:1351–1360. http://doi.org/10.1001/archopht.123.10.1351 [Cited by 179](https://scholar.google.com.sg/scholar?client=ubuntu&hs=8GT&um=1&ie=UTF-8&lr&cites=8711706948014539558)
+ocular hypertension to glaucoma. *Arch Ophthalmol* 2005; 123:1351–1360. http://doi.org/10.1001/archopht.123.10.1351 - [Cited by 179](https://scholar.google.com.sg/scholar?client=ubuntu&hs=8GT&um=1&ie=UTF-8&lr&cites=8711706948014539558)
