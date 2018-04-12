@@ -4,9 +4,6 @@ visualize.simulation = function(sensitivity,
                                 glaucoma_prevalence,
                                 vis_param) {
   
-     # Lattice package
-    require(lattice)
-  
     # convert
     dev = array(as.numeric(unlist(device_specificity)))
     clin = array(as.numeric(unlist(clinician_specificity)))
@@ -30,31 +27,61 @@ visualize.simulation = function(sensitivity,
     data_dev_glauc = sensitivity[,c_i,]
     data_clin_glauc = sensitivity[d_i,,]
     
-    # Convert to dataframes (if needed)
-    df_dev_clin = data.frame(data_dev_clin)
-    df_dev_glauc = data.frame(data_dev_glauc)
-    df_clin_glauc = data.frame(data_clin_glauc)
+    # Define axis labels for plotting
+    x_lab = c('Device Specificity', 'Device Specificity', 'Clinician Specificity')
+    y_lab = c('Clinician Specificity', 'Glaucoma Prevalence', 'Glaucoma Prevalence')
+    z_lab = rep('Specificity', length(y_lab))
+    
+    # non-elegant way to define
+    x_lims = c(c(min(device_specificity), max(device_specificity)),
+               c(min(device_specificity), max(device_specificity)),
+               c(min(clinician_specificity), max(clinician_specificity)))
+    
+    y_lims = c(c(min(clinician_specificity), max(clinician_specificity)),
+               c(min(glaucoma_prevalence), max(glaucoma_prevalence)),
+               c(min(glaucoma_prevalence), max(glaucoma_prevalence)))
+    
+    # Transform into Melted form (data frame)
+    melt_dev_clin = melt(data_dev_clin)
+    melt_dev_glauc = melt(data_dev_glauc)
+    melt_clin_glauc = melt(data_clin_glauc)
+    
+    melt_df = list(melt_dev_clin, melt_dev_glauc, melt_clin_glauc)
 
-    # Use the lattice package for 3D Plots
-    # for multiple plots, see: 
-    # https://stackoverflow.com/questions/2540129/lattice-multiple-plots-in-one-window
-    z_limits = c(0,1)
+    # Use ggplot2 for 2D density plots now
+    # https://www.r-graph-gallery.com/2d-density-plot-with-ggplot2/
+    p = list()
     
-    p1 = levelplot(data_dev_clin, xlab="Device Specificity", ylab='Clinician Specificity',
-              col.regions = heat.colors(100)[length(heat.colors(100)):1], main=paste('Glaucoma Prevalence = ', g_prev),
-              aspect=1, zlim=z_limits) # aspect=1 makes plot square
+    # Define palette
+    hm.palette <- colorRampPalette(rev(brewer.pal(11, 'Spectral')), 
+                                   space='Lab')
     
-    p2 = levelplot(data_dev_glauc, xlab="Device Specificity", ylab='Glaucoma Prevalence',
-                   col.regions = heat.colors(100)[length(heat.colors(100)):1], main=paste('Clinician Specificity = ', c_spec),
-                   aspect=1, zlim=z_limits)
+    # Define color bar ticks and limits
+    value_limits = c(0,1)
+    value_breaks = c(0, 0.2, 0.4, 0.6, 0.8, 1.0)
     
-    p3 = levelplot(data_clin_glauc, xlab='Clinician Specificity', ylab='Glaucoma Prevalence',
-                   col.regions = heat.colors(100)[length(heat.colors(100)):1]   , main=paste('Device Specificity = ', d_spec),
-                   aspect=1, zlim=z_limits) 
+    # For using ggplot2 in a loop
+    # http://ggplot2.tidyverse.org/reference/aes_.html
+    for (i in 1:length(y_lab)) {
     
-    # Plot prints
-    print(p1, split = c(1, 1, 3, 1), more = TRUE)
-    print(p2, split = c(2, 1, 3, 1), more = TRUE)
-    print(p3, split = c(3, 1, 3, 1), more = FALSE)  # more = FALSE is redundant
+      # x = seq(x_lims[(i-1)*2 + 1], x_lims[(i-1)*2 + 1], length.out=length(melt_df[[i]]$Var1))
+      # y = seq(y_lims[(i-1)*2 + 1], y_lims[(i-1)*2 + 1], length.out=length(melt_df[[i]]$Var2))
+        
+      p[[i]] = ggplot(melt_df[[i]], aes_(x = ~Var1, 
+                                         y = ~Var2, 
+                                         fill = ~value )) +
+        geom_tile() +
+        theme(aspect.ratio=1) + 
+        scale_fill_gradientn(colours = hm.palette(100),
+                             limits = value_limits,
+                             breaks = value_breaks) +
+        ylab(y_lab[i]) +
+        xlab(x_lab[i]) +
+        theme(axis.text.x = element_text(angle = 90, hjust = 1))
+    }
+    
+    no_of_cols = length(y_lab)
+    do.call(grid.arrange, c(p, list(ncol=no_of_cols)))
+    
   
 }

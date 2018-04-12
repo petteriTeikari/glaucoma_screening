@@ -1,8 +1,8 @@
 # PARAM that you are interested in tweaking
 
   # Simulation resolution
-  step_resolution = 0.01 # for clinician, device specificity
-  glaucoma_prevalence_steps = 0.005
+  step_resolution = 0.0025 # for clinician, device specificity
+  glaucoma_prevalence_steps = 0.001
   
   # Visualization parameters
   vis_param = list()
@@ -19,7 +19,12 @@
   source(file.path(script.dir, 'visualize_simulation.R', fsep = .Platform$file.sep))
   
   # Libraries needed
+  # http://blog.aicry.com/r-heat-maps-with-ggplot2/
   library(ggplot2) # for plotting
+  library(RColorBrewer)
+  library(reshape2)
+  library(gridExtra)
+  library(grid)
   
   # Simulation vectors
   
@@ -43,6 +48,8 @@
 # Go through the vectors --------------------------------------------------
 
   for (d in 1:length(device_specificity)) {
+    
+    cat(d, '/', length(device_specificity), '\n')
     
     for (c in 1:length(clinician_specificity)) {
       
