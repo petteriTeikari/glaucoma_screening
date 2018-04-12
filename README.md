@@ -14,6 +14,8 @@ You can try to build on this (*divide axis values by 100*), and some statistical
 
 ![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/init_simulation2_div_axes_by_100.png "Logo Title Text 1")
 
+*TODO! Need to tweak the plot and study the **lattice** package*
+
 So to establish first what are the True Positive, False Positive, False Negative, True Negative rates depending on our device specificity, glaucoma prevalence, and clinician variability in glaucoma diagnosis
 
 ## References
