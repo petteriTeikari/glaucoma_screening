@@ -10,9 +10,11 @@ The **scientific background** *snippet* is found from the **[Wiki](https://githu
 
 ## Simulation Init (R)
 
-You can try to build on this (*divide axis values by 1000*), and at the moment the **clinician uncertainty** is **not** taken into account and is always 100% correct
+You can try to build on this (*divide axis values by 100*), and some statistically strong could check the reasoning. Harder now when the diagnoses are **not certain**, compared to let's say a situation where we would like predict stock market returns in which the ground truths would always **be correct** (in some sense).
 
-![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/init_simulation_div_axes_by_1000.png "Logo Title Text 1")
+![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/init_simulation2_div_axes_by_100.png "Logo Title Text 1")
+
+*TODO! Need to tweak the plot and study the **lattice** package*
 
 So to establish first what are the True Positive, False Positive, False Negative, True Negative rates depending on our device specificity, glaucoma prevalence, and clinician variability in glaucoma diagnosis
 
