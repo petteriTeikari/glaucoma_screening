@@ -1,13 +1,13 @@
 # PARAM that you are interested in tweaking
 
   # Simulation resolution
-  step_resolution = 0.001 # for clinician, device specificity
-  glaucoma_prevalence_steps = 0.001
+  step_resolution = 0.01 # for clinician, device specificity
+  glaucoma_prevalence_steps = 0.005
   
   # Visualization parameters
   vis_param = list()
   vis_param['d_spec'] = 0.95 # for 2D plots as constant
-  vis_param['c_spec'] = 1.0 # for 2D plots as constant
+  vis_param['c_spec'] = 0.80 # for 2D plots as constant
   vis_param['g_prev'] = 0.032 # for 2D plots as constant
   
 

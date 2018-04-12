@@ -21,7 +21,22 @@ compute.screening.performance = function(d,c,g) { # Actual computation
     
   # First pass (device & clinician and glaucoma prevalence) -----------------------------
   
-  
+    # See the "ROC_table.ods" for reference
+    glaucoma_TP_fromTP = (c * d * g)
+    glaucoma_TP_fromFN = ((1-c) * (1-d) * g)
+    glaucoma_TP_C = glaucoma_TP_fromTP + glaucoma_TP_fromFN
+    
+    nonglaucoma_FP_fromFP = ((1-g)*(1-d))*c
+    nonglaucoma_FP_fromTN = (1-c)*d*(1-g)
+    nonglaucoma_FP_C = nonglaucoma_FP_fromFP + nonglaucoma_FP_fromTN
+    
+    P_B_C = glaucoma_TP_C + nonglaucoma_FP_C
+    
+    P_BA_C = d
+    
+    # P_A stays the same as it is the glaucoma prevalence
+    P_AB_C = P_BA_C * P_A / P_B_C
+    
     # See later, a better way to quantify the clinical involvement?
     # e.g. Leibig et al. (2017): http://doi.org/10.1038/s41598-017-17876-z
     
@@ -34,9 +49,7 @@ compute.screening.performance = function(d,c,g) { # Actual computation
       # "The truth table" gets a bit more complicated, do later
   
   
-  
-  
-  return(P_AB_1)
+  return(P_AB_C)
   
 }
 
