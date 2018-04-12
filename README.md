@@ -10,7 +10,7 @@ The **scientific background** *snippet* is found from the **[Wiki](https://githu
 
 ## Simulation Init (R)
 
-You can try to build on this (*divide axis values by 100*), and some statistically strong could check the reasoning. Harder now when the diagnoses are **not certain**, compared to let's say a situation where we would like predict stock market returns in which the ground truths would always **be correct** (in some sense).
+You can try to build on this (*axes off, study the **ggplot2** parameters*), and some statistically strong could check the reasoning. Harder now when the diagnoses are **not certain**, compared to let's say a situation where we would like predict stock market returns in which the ground truths would always **be correct** (in some sense).
 
 ![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/init_simulation_ggplot_check_axes.png "Logo Title Text 1")
 
