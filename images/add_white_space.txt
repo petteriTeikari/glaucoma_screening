@@ -1,0 +1,8 @@
+for i in *.png *.jpeg *jpg *.gif; do
+    convert \
+       ${i} \
+      -gravity east \
+      -background white \
+      -extent $(identify -format '%[fx:W+40]x%H' ${i}) \
+       $(convert ${i} -format "%t.%e" info:)
+ done
