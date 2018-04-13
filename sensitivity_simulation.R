@@ -64,6 +64,10 @@
         # maybe nicer for demonstration and debug purposes)
         sensitivity[d,c,g] = value_out
         
+        # NOTE! we are just passing single values to the "compute.screening.performance", 
+        # so you could might as well use this for Monte Carlo -based approach and you
+        # draw these values from some distribution
+        
       } # end of d
     } # end of c
   } # end of g
