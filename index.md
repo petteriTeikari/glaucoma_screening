@@ -271,7 +271,7 @@ Markov model for disease progression From [Burr et al. (2007)](http://researchon
 ### Cost-effectiveness papers
 
 
-## Kymes et al. (2006): Management of ocular hypertension: a cost-effectiveness approach from the Ocular Hypertension
+#### Kymes et al. (2006): Management of ocular hypertension: a cost-effectiveness approach from the Ocular Hypertension
 https://doi.org/10.1016/j.ajo.2006.01.019 | http://bolandlab.wilmer.jhu.edu/refs/PMID/16765666.pdf
 
 For the **treatment of ocular hypertension** (not *screening*): 
