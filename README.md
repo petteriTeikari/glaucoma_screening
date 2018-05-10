@@ -1,10 +1,10 @@
 # glaucoma_screening
 
-No idea how to make glaucoma screening for **pre-perimetric** glaucoma cost-effective? How about **later stages**? Would it make more sense to target **disease progression** at home from health economics perspective?
+Very hard to make glaucoma screening for **pre-perimetric** glaucoma cost-effective even with risk stratified screening targeting pre-known risk groups? How about **later stages**? Would it make more sense to target **disease progression** at home from health economics perspective?
 
 ## Simulation Init (R)
 
-You can try to build on this (*axes off, study the **ggplot2** parameters*), and some statistically strong could check the reasoning. Harder now when the diagnoses are **not certain**, compared to let's say a situation where we would like predict stock market returns in which the ground truths would always **be correct** (in some sense).
+You can try to build on this
 
 ![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/init_simulation_ggplot_check_axes.png "Logo Title Text 1")
 
