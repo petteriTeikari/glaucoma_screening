@@ -1,4 +1,21 @@
+# Cost-effective glaucoma screening
 
+Very hard to make glaucoma screening for **pre-perimetric** glaucoma cost-effective even with risk stratified screening targeting pre-known risk groups? How about **later stages**? Would it make more sense to target **disease progression** at home from health economics perspective?
+
+## Simulation Init (R)
+
+You can try to build on this
+
+![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/init_simulation_ggplot_check_axes.png "Logo Title Text 1")
+
+*TODO! Need to tweak the plot and correct the axes!*
+
+So to establish first what are the True Positive, False Positive, False Negative, True Negative rates depending on our device specificity, glaucoma prevalence, and clinician variability in glaucoma diagnosis
+
+## Quick References
+
+* Basic **Bayesian stats** intro: http://sphweb.bumc.bu.edu/otlt/MPH-Modules/BS/BS704_Probability/BS704_Probability6.html
+* **Bayesian vs. Frequentist Holy War**: http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/
 
 ## Introduction
 
@@ -189,6 +206,41 @@ We retrospectively included 48 116 fundus photographs for the development and 
 From [Burr et al. (2007)](http://researchonline.lshtm.ac.uk/8383/):
 
 [![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/burr2007_summary.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
+
+## Screening and Patient Journey
+
+From [GLAUCOMA PREFERRED PRACTICE PATTERN® DEVELOPMENT PROCESS AND PARTICIPANTS](https://pdfs.semanticscholar.org/0c9d/fcbd1f2ccad3a77c74b818da397767fb7cb4.pdf):
+
+*Screening for glaucoma in the general population is **not cost-effective** ([Burr et al. 2007](http://researchonline.lshtm.ac.uk/8383/), [Hernandez et al. 2008](https://doi.org/10.1017/S0266462308080288)). Screening is more useful and cost-effective when it is **targeted at population**s at high risk for glaucoma, such as older adults[Friedman et al. 2004](https://doi.org/10.1001/archopht.122.4.532), those with a family history of glaucoma and African Americans and Hispanics [Doshi et al. 2008 | "The Los Angeles Latino Eye Study
+"](https://doi.org/10.1016/j.ophtha.2007.05.032). **Primary open-angle glaucoma** may be an ideal disease to detect by screening because it is often asymptomatic until late in the disease process, it creates significant morbidity, and treatment slows or prevents the progression of visual field loss.
+
+From [Burr et al. (2007)](http://researchonline.lshtm.ac.uk/8383/):
+
+[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/burr2007_caseFinding.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
+
+[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/burr2007_screeningByOptometrist.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
+
+[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/burr2007_screeningByTechnician.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
+
+Markov model for disease progression From [Burr et al. (2007)](http://researchonline.lshtm.ac.uk/8383/):
+
+[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/burr2007_markovModel.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
+
+[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/burr2007_glaucomaStates.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
+
+[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/burr2007_decisionTree.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
+
+[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/burr2007_decisionTree2.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
+
+[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/burr2007_decisionTree3.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
+
+### Teleophthalmology
+
+[Myers et al. (2018)](http://doi.org/10.1111/ceo.13138):
+
+*"...Newer technology continues to contribute to teleophthalmology efforts, but barriers remain to widespread adoption. [Rathi et al. 2017](https://doi.org/10.1016/j.ophtha.2017.05.026https://doi.org/10.1016/j.ophtha.2017.05.026) However, the Scottish Eyecare Integration project was able to utilize teleophthalmology to reduce wait times and make final diagnosis in 20% of cases without direct consultation. [Jeganathan et al. 2017](https://dx.doi.org/10.22608/APO.2016110) In a test of teleophthalmology involving clinical data as well as imaging, virtual review was only found to differ from face-to-face consultation in 3.4% of 204 cases. [Clarke et al. 2017](http://dx.doi.org/10.1136/bjophthalmol-2016-308993)"*
+
+"Automated optic nerve analysis has captured the attention of many researchers and significant advances have been made. Although promising approaches have been proposed, each methodology has its limitations. Low image resolution has also been cited as a limiting factor. [Fraz et al. 2012](https://doi.org/10.1016/j.cmpb.2012.03.009) Fundus cameras capable of high-resolution images will further facilitate efforts in automated glaucoma screening. In its current state, automated glaucoma screening systems do not replace, but at best complement the work of glaucoma specialists. Further research is required and a combination of methods will likely be necessary for accurate optic nerve head analysis."
 
 ## Modeling background
 
