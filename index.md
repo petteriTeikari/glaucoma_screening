@@ -32,6 +32,26 @@ Everything becomes even more uncertain when your actual "ground truth" diagnosis
 
 ![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/clinician_performance.png "Logo Title Text 1")
 
+## Health Statistics
+
+See for example the lecture by Katherine Payne from Manchester Centre for Health Economics (MCHE)
+
+[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/payne_eval.png "Katherine Payne from Manchester Centre for Health Economics")](https://youtu.be/rtgxib3glsI?t=14m46s)
+
+Economic Evaluation | https://youtu.be/rtgxib3glsI?t=14m46s
+
+[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/payne_econeval.png "Katherine Payne from Manchester Centre for Health Economics")](https://youtu.be/rtgxib3glsI?t=22m46s)
+
+Methods of economic evaluation | https://youtu.be/rtgxib3glsI?t=22m46s
+
+[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/payne_costeffectplane.png "Katherine Payne from Manchester Centre for Health Economics")](https://youtu.be/rtgxib3glsI?t=32m46s)
+
+The cost-effectiveness plane | https://youtu.be/rtgxib3glsI?t=32m46s
+
+[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/payne_WTP.png "Katherine Payne from Manchester Centre for Health Economics")](https://youtu.be/rtgxib3glsI?t=37m33s)
+
+Willingness to pay (WTP) | https://youtu.be/rtgxib3glsI?t=37m33s
+
 ## Glaucoma Statistics
 
 Some statistics from papers giving you guidelines where to start your journey in the world of glaucoma health economics. Some estimates of the **glaucoma prevalence**, **direct costs per disease stage**, and **indirect societal costs** due to lost productivity.
