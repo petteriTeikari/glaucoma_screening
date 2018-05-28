@@ -75,13 +75,13 @@ Some statistics from papers giving you guidelines where to start your journey in
 
 The cynical take again would be that for hospitals and insurance providers (especially in a system like USA where **[patients do not know what things cost](http://doi.org/10.1001/jama.2016.4325))** it might be profitable to **have sick patients** coming to your business as illustrated with the case [where surgery complications where found to be the most profitable business](https://www.nytimes.com/2013/04/17/health/hospitals-profit-from-surgical-errors-study-finds.html).
 
-[![alt text](images/hospitals_profit.png "Logo Title Text 1")}(https://www.nytimes.com/2013/04/17/health/hospitals-profit-from-surgical-errors-study-finds.html)
+[![alt text](images/hospitals_profit.png "Logo Title Text 1")(https://www.nytimes.com/2013/04/17/health/hospitals-profit-from-surgical-errors-study-finds.html)
 
 If government (i.e. tax-payers) pay the bill, there is an actual system-level incentive to reduce both direct healthcare costs, and indirect costs as the too sick patients cannot work, pay taxes and execute. One could generalize that healthcare incentives are distorted.
 
 [![alt text](images/misaligned_incentives.png "Logo Title Text 1")](https://www.slideshare.net/PetteriTeikariPhD/artificial-intelligence-in-ophthalmology)
 
-**Slide 62 from [[AI in Ophthalmology | Startup Landscape]](https://www.slideshare.net/PetteriTeikariPhD/artificial-intelligence-in-ophthalmology)
+**Slide 62 from [AI in Ophthalmology | Startup Landscape](https://www.slideshare.net/PetteriTeikariPhD/artificial-intelligence-in-ophthalmology)
 
 One way to achieve **[price transparency](https://www.nytimes.com/2016/12/19/upshot/price-transparency-is-nice-just-dont-expect-it-to-cut-health-costs.html)** in the US healthcare system could be the introduction of "$5,000 health stamps" (see e.g. [Dinesh D'Souza's answer](https://www.youtube.com/watch?v=uOuLQXnbd5s)), where the patients would be spending their own money for routine healthcare (which of course could have unintended consequences)
 
@@ -296,14 +296,14 @@ Ophthalmol* 2004;122:376 –378. http://doi.org/10.1001/archopht.122.3.376 - [Ci
 ocular hypertension to glaucoma. *Arch Ophthalmol* 2005; 123:1351–1360. http://doi.org/10.1001/archopht.123.10.1351 - [Cited by 179](https://scholar.google.com.sg/scholar?client=ubuntu&hs=8GT&um=1&ie=UTF-8&lr&cites=8711706948014539558)
 
 #### Burr et al. (2007): The clinical effectiveness and cost-effectiveness of screening for open angle glaucoma: a systematic review and economic evaluation.
-http://researchonline.lshtm.ac.uk/8383/ | https://doi.org/10.1017/S0266462308080288
+[http://researchonline.lshtm.ac.uk/8383/](http://researchonline.lshtm.ac.uk/8383/) | [https://doi.org/10.1017/S0266462308080288](https://doi.org/10.1017/S0266462308080288)
 
 **Review methods:** Screening strategies were developed by wide consultation. Markov submodels were developed to represent screening strategies. Parameter *estimates were determined* by systematic reviews of epidemiology, 
 economic evaluations of screening, and effectiveness (test accuracy, screening and treatment). 
 
 **General population** screening at any age, thus, appears **not to be cost-effective**. **Selective screening** of groups with higher prevalence (family history, black ethnicity) **might be worthwhile**, although this would only cover 6% of the population. Extension to include other at-risk cohorts (e.g. myopia and diabetes) would include 37% of the general population, but the prevalence is then too low for screening to be considered cost-effective.
 
-Screening using a test with initial **automated classification** (i.e. [the Virtual Clinic model]() followed by assessment by a specialised optometrist, for **test positives**, was more cost-effective than initial specialised optometric assessment. The **cost-effectiveness** of the screening programme was **highly sensitive** to the **perspective on costs** (NHS or societal). In the base-case model, the NHS costs of visual impairment were estimated as £669. If annual societal costs were £8800, then **screening might be considered cost-effective** for a 40-year-old cohort with 1% OAG prevalence assuming a willingness to pay of **£30,000 per quality-adjusted life-year (QALY)**.
+Screening using a test with initial **automated classification** (i.e. [the Virtual Clinic model](https://www.health.org.uk/programmes/scaling-improvement/projects/scaling-virtual-consultations-across-nhs-%E2%80%93-implementing) followed by assessment by a specialised optometrist, for **test positives**, was more cost-effective than initial specialised optometric assessment. The **cost-effectiveness** of the screening programme was **highly sensitive** to the **perspective on costs** (NHS or societal). In the base-case model, the NHS costs of visual impairment were estimated as £669. If annual societal costs were £8800, then **screening might be considered cost-effective** for a 40-year-old cohort with 1% OAG prevalence assuming a willingness to pay of **£30,000 per quality-adjusted life-year (QALY)**.
 
 Cost-effectiveness was **not particularly sensitive to the accuracy of screening tests** within the ranges observed. However, a **highly specific test** is required to **reduce large numbers of false-positive referrals**. The findings that **population screening is unlikely to be cost-effectiv**e are based on an economic model whose parameter estimates have considerable **uncertainty**. In particular, if **rate of progression** and/or **costs of visual impairment** are higher than estimated **then screening could be
 cost-effective**. 
@@ -313,12 +313,12 @@ Glaucoma detection can be improved by increasing attendance for eye examination,
 **Further research** should aim to develop and **provide quality data to populate the economic model**, by conducting a feasibility study of interventions to improve detection, by obtaining further data on costs of blindness, risk of progression and health outcomes, and by conducting an RCT of interventions to improve the uptake of glaucoma testing.
 
 ## Holdsworth et al. (2016):  A Mixed-Methods Evaluation of a Community-Based Glaucoma Check Service in Hackney, London, UK
-https://doi.org/10.1080/09286586.2016.1272702
+[https://doi.org/10.1080/09286586.2016.1272702](https://doi.org/10.1080/09286586.2016.1272702)
 
 To evaluate the uptake, feasibility and acceptability of a general practice-based optometrist-led glaucoma check service. The service targeted people of black Caribbean and black African descent aged 40–65 years, resident in Hackney, London, United Kingdom. This study represents one possible configuration for a **glaucoma case-finding service**, and it contributes to a wider debate about **whether screening**, targeted or otherwise, should be **offered in the UK**. Our findings suggest that general practice is an acceptable setting and that such a service may reach some people not previously engaged with primary eye care services.
 
 #### Founti et al. (2017): Prospective study of glaucoma referrals across Europe: are we using resources wisely?
-http://dx.doi.org/10.1136/bjophthalmol-2017-310249
+[http://dx.doi.org/10.1136/bjophthalmol-2017-310249](http://dx.doi.org/10.1136/bjophthalmol-2017-310249)
 
 *PT: Diagnostic criteria of Glaucoma not good? Get rid of the **old-school** decision trees?
 
@@ -333,7 +333,7 @@ Although clinical practice in glaucoma follows published guidelines, **variabili
 Another limitation is that our study was not designed to assess the levels of **negative predictive values**. This is an important issue to be addressed in a **prospective study**, which should also assess the **cost-effectiveness of the above clinical recommendations**. **Health economics of glaucoma** health service delivery are particularly **complex** and all proposed practices require economic evaluation.
 
 #### Anton et al. (2017): Cost and detection rate of glaucoma screening with imaging devices in a primary care center
-http://doi.org/10.2147/OPTH.S120398 | http://hdl.handle.net/10230/33481
+[http://doi.org/10.2147/OPTH.S120398](http://doi.org/10.2147/OPTH.S120398) | [http://hdl.handle.net/10230/33481](http://hdl.handle.net/10230/33481)
 
 Glaucoma screening (optic disk tomography, nerve fiber analysis, and tonometry) and the conventional detection (in Spain) method had detection rates of 4.1% and 3.1%, respectively, and the cost per case detected was 1,410€ and 1,435€, respectively. The cost of screening 1 million inhabitants would be **5.1 million euros and would allow the detection of 4,715 new cases**. : The proposed screening method directed at population at risk allows a **detection rate of 4.1%** and a **cost of 1,410€ per case detected**.
 
@@ -342,26 +342,26 @@ Glaucoma screening (optic disk tomography, nerve fiber analysis, and tonometry) 
 Nevertheless, **favorable** values of detection rate, positive predictive values (**53%** for screening and **21% for conventional detection**), and estimated **specificity (56%–75% for screening)** support the hypothesis that **glaucoma screening with imaging devices** improves the capabilities of conventional detection and **could be cost-effective**. The results also confirmed that the tested screening program **would improve** with a **better specificity** and, with this aim, present screening programs in our environment have been optimized through a better definition of target population (older age) and with the **use of updated imaging devices and parameters**.
 
 #### Zho et al. (2007): Optimizing Glaucoma Screening in High-Risk Population: Design and 1-Year Findings of the Screening to Prevent (SToP) Glaucoma Study
-https://doi.org/10.1016/j.ajo.2017.05.017
+[https://doi.org/10.1016/j.ajo.2017.05.017](https://doi.org/10.1155/2017/1621640)
 
 *To develop, implement, and evaluate a replicable community-based screening intervention designed to improve glaucoma and other eye disease detection and follow-up care in high-risk populations in the United States. The most **common reasons for referral** were ungradable fundus image (39.3% of those referred), best-corrected VA < 20/40 (14.6%), and ungradable autorefraction (11.8%). Among people referred for definitive examination, 153 **43%) people attended their scheduled examination**. The most common diagnoses at the definitive examination were glaucoma and cataract (51% and 40%, respectively).*
 
 ![alt text](images/zho2017_STOPtree.png "Logo Title Text 1")
 
 #### Jones et al. (2017): Gradually Then Suddenly? Decline in Vision-Related Quality of Life as Glaucoma Worsens
-https://doi.org/10.1155/2017/1621640
+[https://doi.org/10.1155/2017/1621640](https://doi.org/10.1155/2017/1621640)
 
 *To evaluate the relationship between self-reported vision-related quality of life (VRQL) and visual field (VF) loss in people from glaucoma clinics. ...  Relationship between decline in **VRQL and VF worsening** in glaucoma is **unlikely to be linear**; it more likely has **different phases**, and these should be further explored in **longitudinal studies**.
 
 #### Boodhna and Crabb (2017): More frequent, more costly? Health economic modelling aspects of monitoring glaucoma patients in England
-https://doi.org/10.1186/s12913-016-1849-9
+[https://doi.org/10.1186/s12913-016-1849-9](https://doi.org/10.1186/s12913-016-1849-9)
 
 *Increasing VF monitoring at the earliest stages of follow-up for COAG appears to be cost-effective depending on reasonable assumptions about implementation costs. Our health economic model highlights benefits of stratifying patients to more or less monitoring based on age and stage of disease at diagnosis; a prospective study is needed to prove these findings. Further, this works highlights gaps in knowledge about long term costs of visual impairment.*
 
 ![alt text](images/boodhnaCrabb2017_followupChange.png "Logo Title Text 1")
 
 #### Boodhna, T. (2017): Trends and health economic aspects of service delivery of glaucoma
-http://openaccess.city.ac.uk/17931/
+[http://openaccess.city.ac.uk/17931/](http://openaccess.city.ac.uk/17931/)
 
 ![alt text](images/boodhna2017_effectivenessPlane.png "Logo Title Text 1")
 
@@ -384,7 +384,7 @@ Updated Tornado Plot
 --
 
 #### King et al. (2017): Twenty-year outcomes in patients with newly diagnosed glaucoma: mortality and visual function
-http://dx.doi.org/10.1136/bjophthalmol-2017-311595
+[http://dx.doi.org/10.1136/bjophthalmol-2017-311595](http://dx.doi.org/10.1136/bjophthalmol-2017-311595)
 
 To determine the **mortality within 20 years** of diagnosis of **chronic open-angle glaucoma (COAG)** and visual acuity and visual field progression of a cohort followed for 20 years.  In this cohort, approximately **two-thirds of patients with glaucoma died within 20 years of diagnosis**. In most older patients with glaucoma, the overall goal of **preventing visual handicap and blindness is achievable 20 years after diagnosis**.
 
@@ -397,21 +397,21 @@ In conclusion, this study provides long-term data on ocular and demographic char
 patient according to age, disease severity, rate of glaucoma progression, ocular and systemic comorbidities and the patient’s wishes.
 
 #### Miller et al. (2017)
-https://doi.org/10.1016/j.ajo.2017.07.010
+[https://doi.org/10.1016/j.ajo.2017.07.010](https://doi.org/10.1016/j.ajo.2017.07.010)
 
 To compare cup-to-disc ratio (CDR) measurements from images taken with a **portable**, 45-degree nonmydriatic fundus camera  ([Pictor](https://volk.com/index.php/volk-products/ophthalmic-cameras/volk-pictor-plus-digital-ophthalmic-imager.html), Volk, 400g, $4,000/$8,000. *PT:* Which seems to be manufactured actually by [https://www.optomed.com/](Optomed)) to images from a traditional **tabletop** mydriatic fundus camera ([Topcon TRC 50 DX](http://www.topconmedical.com/products/trc50dx.htm), 35kg, $25k).
 
 The opportunity to advance ophthalmic care in both remote and underserved populations can be met with new, low-cost portable technologies. The ability to image the optic nerve for glaucoma via a no-dilation method has broad implications for glaucoma screening programs. Portable equipment, such as the portable non-mydriatic fundus camera used in this study, could **greatly enhance outreach efforts** aimed at eliminating treatable blindness in remote and underserved populations. **Future research** should **combine these images and ancillary testing** to determine if layering information for remote graders can improve sensitivity and specificity levels to **meet screening standards** for community-based implementation of a remote glaucoma screening program.
 
 #### Barrett et al. (2018): Glaucoma referral refinement in Ireland: managing the sensitivity‐specificity paradox in optometric practice
-https://doi.org/10.1111/opo.12446
+[https://doi.org/10.1111/opo.12446](https://doi.org/10.1111/opo.12446)
 
 The refinement scheme optometrist, trained through apprenticeship style experience at a hospital outpatient clinic, made a tentative management decision after carrying out the GRR exam. The final management decision was made in a **‘virtual clinic’** by a glaucoma specialist consultant ophthalmologist.
 
 Of the patients seen within the scheme, **62% did not require referral onward to ophthalmology**, thus releasing the significant majority of hospital clinic slots that would previously have been required to examine such patients. The high level of **inter‐professional decision agreement** likely reflects the benefits of pre‐scheme **apprenticeship** style training and ongoing hospital clinic participation by the scheme optometrist. The rate of loss to follow up compares favourably with ophthalmology led, hospital based, glaucoma clinics. Nevertheless, the losses indicate that **patient education** remains a key priority for future planning.
 
 #### Barrett et al. (2018): Barriers to glaucoma case finding as perceived by optometrists in Ireland
-http://dx.doi.org/10.1111/cxo.12573
+[http://dx.doi.org/10.1111/cxo.12573](http://dx.doi.org/10.1111/cxo.12573)
 
 *Petteri:* Instead of optometrists, have the machine to do the screening?
 
