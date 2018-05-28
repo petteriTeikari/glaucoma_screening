@@ -6,7 +6,7 @@ Very hard to make glaucoma screening for **pre-perimetric** glaucoma cost-effect
 
 You can try to build on this
 
-![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/init_simulation_ggplot_check_axes.png "Logo Title Text 1")
+![alt text](images/init_simulation_ggplot_check_axes.png "Logo Title Text 1")
 
 *TODO! Need to tweak the plot and correct the axes!*
 
@@ -19,7 +19,7 @@ So to establish first what are the True Positive, False Positive, False Negative
 
 ## Introduction
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/topol_bayesianThing.png "Eric Topol at Google Talks talking about personalized precision medicine")](https://youtu.be/hF2QHevDHSw?t=56m31s)
+[![alt text](images/topol_bayesianThing.png "Eric Topol at Google Talks talking about personalized precision medicine")](https://youtu.be/hF2QHevDHSw?t=56m31s)
 
 Rough estimates how good the device should be, and how does this translate to real-life performance. Then that should be **linked to cost-estimates** of False Positives (what is the cost of **over-referral**) and False Negatives (what is the cost of **not detecting glaucoma**).
 
@@ -27,45 +27,45 @@ And of course then you need try to estimate what is the **cost saving of picking
 
 And then you need some meaningful estimate of the **[QALY](https://en.wikipedia.org/wiki/Quality-adjusted_life_year)**, and are **people interested** actually about their eye health? Do they **adhere** to the medication even?
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/adherence.png "Logo Title Text 1")](https://dx.doi.org/10.1016%2Fj.ophtha.2011.05.013)
+[![alt text](images/adherence.png "Logo Title Text 1")](https://dx.doi.org/10.1016%2Fj.ophtha.2011.05.013)
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/pharmacies_are_awful.png "Logo Title Text 1")](https://www.wired.com/2016/07/pharmacy-experience-sucks-startups-redesigning/)
+[![alt text](images/pharmacies_are_awful.png "Logo Title Text 1")](https://www.wired.com/2016/07/pharmacy-experience-sucks-startups-redesigning/)
 
 *featuring [Capsule](https://www.capsulecares.com/) and [Round Refill](https://roundhealth.co/) from [Circadian Design](https://medium.com/circadian-design)*
 
 And finally you can always remember the cynical "truth" that **[Dead Patient is a Cheap Patient](https://www.youtube.com/watch?v=1m0vCOikrcU)**, and in most cases the early intervention does not lead to reduced burden (Resource, and Moneywise) of the healthcare system
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/dead_patient.png "Logo Title Text 1")](https://www.youtube.com/watch?v=1m0vCOikrcU)
+[![alt text](images/dead_patient.png "Logo Title Text 1")](https://www.youtube.com/watch?v=1m0vCOikrcU)
 
 And who will actually push against if you could cure patients, or with early intervention to glaucoma kill all the subsequent **revenue from patients**. Is that a sustainable business model, where are the famous **recurring revenues** in this scenario?
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/curingPatientsSustainable.png "Logo Title Text 1")](https://www.cnbc.com/2018/04/11/goldman-asks-is-curing-patients-a-sustainable-business-model.html)
+[![alt text](images/curingPatientsSustainable.png "Logo Title Text 1")](https://www.cnbc.com/2018/04/11/goldman-asks-is-curing-patients-a-sustainable-business-model.html)
 
 https://www.cnbc.com/2018/04/11/goldman-asks-is-curing-patients-a-sustainable-business-model.html
 
-Everything becomes even more uncertain when your actual "ground truth" diagnosis labels are off. Play with the [table](https://github.com/petteriTeikari/glaucoma_screening/blob/master/tables/ROC_table.ods) if you like, but the analysis/simulation is done in R.
+Everything becomes even more uncertain when your actual "ground truth" diagnosis labels are off. Play with the [table](tables/ROC_table.ods) if you like, but the analysis/simulation is done in R.
 
 * For **clinician performances**, See e.g. Reus et al. (2010), https://doi.org/10.1016/j.ophtha.2009.09.026, Hadwin et al. (2013), http://dx.doi.org/10.1111/opo.12066, Scheetz et al. (2015), http://dx.doi.org/10.1111/ijcp.12600
 
-![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/clinician_performance.png "Logo Title Text 1")
+![alt text](images/clinician_performance.png "Logo Title Text 1")
 
 ## Health Statistics
 
 See for example the lecture by Katherine Payne from Manchester Centre for Health Economics (MCHE)
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/payne_eval.png "Katherine Payne from Manchester Centre for Health Economics")](https://youtu.be/rtgxib3glsI?t=14m46s)
+[![alt text](images/payne_eval.png "Katherine Payne from Manchester Centre for Health Economics")](https://youtu.be/rtgxib3glsI?t=14m46s)
 
 Economic Evaluation | https://youtu.be/rtgxib3glsI?t=14m46s
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/payne_econeval.png "Katherine Payne from Manchester Centre for Health Economics")](https://youtu.be/rtgxib3glsI?t=22m46s)
+[![alt text](images/payne_econeval.png "Katherine Payne from Manchester Centre for Health Economics")](https://youtu.be/rtgxib3glsI?t=22m46s)
 
 Methods of economic evaluation | https://youtu.be/rtgxib3glsI?t=22m46s
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/payne_costeffectplane.png "Katherine Payne from Manchester Centre for Health Economics")](https://youtu.be/rtgxib3glsI?t=32m46s)
+[![alt text](images/payne_costeffectplane.png "Katherine Payne from Manchester Centre for Health Economics")](https://youtu.be/rtgxib3glsI?t=32m46s)
 
 The cost-effectiveness plane | https://youtu.be/rtgxib3glsI?t=32m46s
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/payne_WTP.png "Katherine Payne from Manchester Centre for Health Economics")](https://youtu.be/rtgxib3glsI?t=37m33s)
+[![alt text](images/payne_WTP.png "Katherine Payne from Manchester Centre for Health Economics")](https://youtu.be/rtgxib3glsI?t=37m33s)
 
 Willingness to pay (WTP) | https://youtu.be/rtgxib3glsI?t=37m33s
 
@@ -75,31 +75,31 @@ Some statistics from papers giving you guidelines where to start your journey in
 
 The cynical take again would be that for hospitals and insurance providers (especially in a system like USA where **[patients do not know what things cost](http://doi.org/10.1001/jama.2016.4325))** it might be profitable to **have sick patients** coming to your business as illustrated with the case [where surgery complications where found to be the most profitable business](https://www.nytimes.com/2013/04/17/health/hospitals-profit-from-surgical-errors-study-finds.html).
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/hospitals_profit.png "Logo Title Text 1")}(https://www.nytimes.com/2013/04/17/health/hospitals-profit-from-surgical-errors-study-finds.html)
+[![alt text](images/hospitals_profit.png "Logo Title Text 1")}(https://www.nytimes.com/2013/04/17/health/hospitals-profit-from-surgical-errors-study-finds.html)
 
 If government (i.e. tax-payers) pay the bill, there is an actual system-level incentive to reduce both direct healthcare costs, and indirect costs as the too sick patients cannot work, pay taxes and execute. One could generalize that healthcare incentives are distorted.
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/misaligned_incentives.png "Logo Title Text 1")](https://www.slideshare.net/PetteriTeikariPhD/artificial-intelligence-in-ophthalmology)
+[![alt text](images/misaligned_incentives.png "Logo Title Text 1")](https://www.slideshare.net/PetteriTeikariPhD/artificial-intelligence-in-ophthalmology)
 
 **Slide 62 from [[AI in Ophthalmology | Startup Landscape]](https://www.slideshare.net/PetteriTeikariPhD/artificial-intelligence-in-ophthalmology)
 
 One way to achieve **[price transparency](https://www.nytimes.com/2016/12/19/upshot/price-transparency-is-nice-just-dont-expect-it-to-cut-health-costs.html)** in the US healthcare system could be the introduction of "$5,000 health stamps" (see e.g. [Dinesh D'Souza's answer](https://www.youtube.com/watch?v=uOuLQXnbd5s)), where the patients would be spending their own money for routine healthcare (which of course could have unintended consequences)
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/health_stamps.png "Logo Title Text 1")](https://www.nytimes.com/2016/12/19/upshot/price-transparency-is-nice-just-dont-expect-it-to-cut-health-costs.html)
+[![alt text](images/health_stamps.png "Logo Title Text 1")](https://www.nytimes.com/2016/12/19/upshot/price-transparency-is-nice-just-dont-expect-it-to-cut-health-costs.html)
 
 ### Vision Loss
 
 From [Bourne et al. (2017)](http://dx.doi.org/10.1136/bjophthalmol-2017-311258):
 
-![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/bourne2017_visionLossByCountries.png "Logo Title Text 1")
+![alt text](images/bourne2017_visionLossByCountries.png "Logo Title Text 1")
 
-![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/bourne2017_MSVIByCountries.png "Logo Title Text 1")
+![alt text](images/bourne2017_MSVIByCountries.png "Logo Title Text 1")
 
-![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/bourne2017_mildByCountries.png "Logo Title Text 1")
+![alt text](images/bourne2017_mildByCountries.png "Logo Title Text 1")
 
 ### Glaucoma Prevalence and projections
 
-![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/glaucoma_stats.png "Logo Title Text 1")
+![alt text](images/glaucoma_stats.png "Logo Title Text 1")
 
 [Quigley and Broman (2010)](http://doi.org/10.1136/bjo.2005.081224)
 [Cited by 3,677 articles](https://scholar.google.co.uk/scholar?cites=3913844328440524411&as_sdt=2005&sciodt=0,5&hl=en)
@@ -108,21 +108,21 @@ See also [Tham et al. (2014)](http://dx.doi.org/10.1016/j.ophtha.2014.05.013) fo
 
 From [Burr et al. (2007)](http://researchonline.lshtm.ac.uk/8383/):
 
-![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/burr2007_OAG_UK.png "Logo Title Text 1")
+![alt text](images/burr2007_OAG_UK.png "Logo Title Text 1")
 
 ### Stage-wise costs
 
-![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/US_costs.png "Logo Title Text 1")
+![alt text](images/US_costs.png "Logo Title Text 1")
 
 [Lee et al. (2006)](http://dx.doi.org/10.1001/archopht.124.1.12)
 
-![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/EU_costs.png "Logo Title Text 1")
+![alt text](images/EU_costs.png "Logo Title Text 1")
 
 [Traverso et al. (2005)](http://dx.doi.org/10.1136/bjo.2005.067355)
 
 **Willingness to pay for QALY in Finland**
 
-![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/Finland_QALY_willingness.png "Logo Title Text 1")
+![alt text](images/Finland_QALY_willingness.png "Logo Title Text 1")
 
 [Vaahtoranta-Lehtonen et al. (2007)](https://doi.org/10.1111/j.1600-0420.2007.00947.x) (**[cited by 66 articles](https://scholar.google.co.uk/scholar?cites=8938518617503454586&as_sdt=2005&sciodt=0,5&hl=en)**)
 
@@ -149,15 +149,15 @@ See studies by
 
 From [Boodhna et al. 2017](http://openaccess.city.ac.uk/17931/)
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/boodhna2017_MD_change.png "Logo Title Text 1")](http://openaccess.city.ac.uk/17931/)
+[![alt text](images/boodhna2017_MD_change.png "Logo Title Text 1")](http://openaccess.city.ac.uk/17931/)
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/boodhna2017_MDchangeRates.png "Logo Title Text 1")](http://openaccess.city.ac.uk/17931/)
+[![alt text](images/boodhna2017_MDchangeRates.png "Logo Title Text 1")](http://openaccess.city.ac.uk/17931/)
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/boodhna2017_MDchangeRatesPerGroup.png "Logo Title Text 1")](http://openaccess.city.ac.uk/17931/)
+[![alt text](images/boodhna2017_MDchangeRatesPerGroup.png "Logo Title Text 1")](http://openaccess.city.ac.uk/17931/)
 
 From [Bryan and Crabb (2018)](http://doi.org/10.1167/tvst.7.1.22), new way to visualize (Hedgehog Plot):
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/bryanCrabb2018_hedgehogPlot.png "Logo Title Text 1")](http://doi.org/10.1167/tvst.7.1.22)
+[![alt text](images/bryanCrabb2018_hedgehogPlot.png "Logo Title Text 1")](http://doi.org/10.1167/tvst.7.1.22)
  
 *(A) Hedgehog Plot showing rate of VF progression status in a **sample of 200 eyes from 100 patients**. (B) All eyes are colored depending on the rate of progression. This can be divided into (C) eyes that are stable/improving (slope > 0 dB/y), (D) eyes with slow progression (−0.5 < slope < 0 dB/y), (E) eyes with moderate progressoion (−1 < slope < −0.5 dB/y), and (F) eyes with fast progression (−1 < slope).*
 
@@ -167,31 +167,31 @@ From [Bryan and Crabb (2018)](http://doi.org/10.1167/tvst.7.1.22), new way to vi
 
 #### IOP:
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/burr2007_IOP.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
+[![alt text](images/burr2007_IOP.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
 
 *Intraocular pressure (IOP). G, glaucoma population; N, normal distribution; P, frequency of distribution of IOP in population.*
 
 #### Optic disc screening performance:
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/burr2007_glaucomaOpticDisc.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
+[![alt text](images/burr2007_glaucomaOpticDisc.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
 
 ##### Deep Learning
 
 We retrospectively included 48 116 fundus photographs for the development and validation of a deep learning algorithm. In the validation dataset, this deep learning system achieved an **AUC of 0.986** with sensitivity of 95.6% and specificity of 92.0%. The most common reasons for **false-negative** grading (n = 87) were GON with coexisting eye conditions (n = 44 [50.6%]), including pathologic or high myopia (n = 37 [42.6%]), diabetic retinopathy (n = 4 [4.6%]), and age-related macular degeneration (n = 3 [3.4%]). The leading reason for **false-positive** results (n = 480) was having other eye conditions (n = 458 [95.4%]), mainly including physiologic cupping (n = 267 [55.6%]). Misclassification as **false-positive** results amidst a normal-appearing fundus occurred in only 22 eyes (4.6%).
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/li2018_fundusDL.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
+[![alt text](images/li2018_fundusDL.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/li2018_falseNegative.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
+[![alt text](images/li2018_falseNegative.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/li2018_falsePositive.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
+[![alt text](images/li2018_falsePositive.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
 
 #### OCT RNFL thickness
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/burr2007_glaucomaRNFL.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
+[![alt text](images/burr2007_glaucomaRNFL.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
 
 #### Structural vs. Functional tests
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/burr2007_structureVsFunction.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
+[![alt text](images/burr2007_structureVsFunction.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
 
 ##### RFNL + Visual Field
 
@@ -199,13 +199,13 @@ We retrospectively included 48 116 fundus photographs for the development and 
 
 *The sANSWERS method combining VF and OCT data had a **higher hit rate** and **identified progression more quickly** than the reference (Guided Progression Analysis™ (GPA) Software, Carl Zeiss) and other VF-only methods, and produced more accurate estimates of the progression rate, but did not increase treatment effect statistical significance. Similar studies with current OCT technology need to be undertaken and the statistical methods need refinement.*
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/GarwayHeath2018_structureFunction.png "Logo Title Text 1")](https://dx.doi.org/10.3310%2Fhta22040)
+[![alt text](images/GarwayHeath2018_structureFunction.png "Logo Title Text 1")](https://dx.doi.org/10.3310%2Fhta22040)
 
 #### Comparison
 
 From [Burr et al. (2007)](http://researchonline.lshtm.ac.uk/8383/):
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/burr2007_summary.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
+[![alt text](images/burr2007_summary.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
 
 ## Screening and Patient Journey
 
@@ -216,23 +216,23 @@ From [GLAUCOMA PREFERRED PRACTICE PATTERN® DEVELOPMENT PROCESS AND PARTICIPANTS
 
 From [Burr et al. (2007)](http://researchonline.lshtm.ac.uk/8383/):
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/burr2007_caseFinding.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
+[![alt text](images/burr2007_caseFinding.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/burr2007_screeningByOptometrist.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
+[![alt text](images/burr2007_screeningByOptometrist.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/burr2007_screeningByTechnician.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
+[![alt text](images/burr2007_screeningByTechnician.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
 
 Markov model for disease progression From [Burr et al. (2007)](http://researchonline.lshtm.ac.uk/8383/):
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/burr2007_markovModel.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
+[![alt text](images/burr2007_markovModel.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/burr2007_glaucomaStates.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
+[![alt text](images/burr2007_glaucomaStates.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/burr2007_decisionTree.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
+[![alt text](images/burr2007_decisionTree.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/burr2007_decisionTree2.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
+[![alt text](images/burr2007_decisionTree2.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
 
-[![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/burr2007_decisionTree3.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
+[![alt text](images/burr2007_decisionTree3.png "Logo Title Text 1")](http://researchonline.lshtm.ac.uk/8383/)
 
 ### Teleophthalmology
 
@@ -244,7 +244,7 @@ Markov model for disease progression From [Burr et al. (2007)](http://researchon
 
 ## Modeling background
 
-![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/healthEconomicModels.png "Logo Title Text 1")
+![alt text](images/healthEconomicModels.png "Logo Title Text 1")
 
 * Burr et al. (2007), https://dx.doi.org/10.3310/hta11410, Screening in UK for Glaucoma, NHS Setting
 * Moyer (2013), https://dx.doi.org/10.7326/0003-4819-159-6-201309170-00686, ISA
@@ -254,7 +254,7 @@ Markov model for disease progression From [Burr et al. (2007)](http://researchon
 
 ### Risk Stratification 
 
-![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/riskStratification.png "Logo Title Text 1")
+![alt text](images/riskStratification.png "Logo Title Text 1")
 
 * Zhao et al. (2017), https://doi.org/10.1016/j.ajo.2017.05.017
 * Ross et al. (2017), https://doi.org/10.1109/TMI.2016.2608782
@@ -262,7 +262,7 @@ Markov model for disease progression From [Burr et al. (2007)](http://researchon
 * Zalewski et al. (2017), https://doi.org/10.1109/BHI.2017.7897302
 * Hussein et al. (2017), https://arxiv.org/abs/1704.08797
 
-![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/riskFactors.png "Logo Title Text 1")
+![alt text](images/riskFactors.png "Logo Title Text 1")
 
 * “Overview of ethnicity and race” by M. Roy Wilson (United States) at Risk Profiling symposium at World Glaucoma Congress 2017, Helsinki, Finland, http://www.worldglaucoma.org/WGC/WGC2017/author/wilson_m-roy
 * SERI PAPER, about in Singapore, http://dx.doi.org/10.1001/jamaophthalmol.2015.1478 -> cited by [13 articles](https://scholar.google.co.uk/scholar?cites=16992672648175795977&as_sdt=2005&sciodt=0,5&hl=en)
@@ -284,7 +284,7 @@ of POAG on quality of life because of the loss of visual. Some **clinicians have
 "*UNCERTAINTY AND THE COST-EFFECTIVENESS DECISION: Figure 3 details the result of our Monte Carlo simulation. It demonstrates that, in countries or settings in which **health care resources are more dear** (that is, the “WTP” for a QALY is $43,000), the “Treat >5%” threshold may be preferred. However, **most industrialized nations** would consider a WTP of $43,000 to be low, and the “Treat >2%” threshold would provide the most benefit. The exception to this may be seen in certain **government programs** where **funding restrictions exist**. In such settings, the >5% threshold may be preferred, but even in such settings, it is not likely that the “Treat no one” threshold would be viewed as the option that provides
 the most benefit.
 
-![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/kymes2006_figure3.png "Logo Title Text 1")
+![alt text](images/kymes2006_figure3.png "Logo Title Text 1")
 
 [9] Robin AL, Frick KD, Katz J, Budenz D, Tielsch JM. The Ocular Hypertension Treatment Study: Intraocular pressure
 lowering prevents the development of glaucoma, but does that mean we should treat before the onset of disease? *Arch
@@ -324,9 +324,9 @@ http://dx.doi.org/10.1136/bjophthalmol-2017-310249
 
 The **accuracy of referrals was poor** in the UK and the other countries. Requiring a **combination of criteria** and raising the IOP threshold for IOP-only referrals are needed to **cut waste in clinical care**.
 
-![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/founti2017_tableForReferrals.png "Logo Title Text 1")
+![alt text](images/founti2017_tableForReferrals.png "Logo Title Text 1")
 
-![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/founti2017_predictiveValues.png "Logo Title Text 1")
+![alt text](images/founti2017_predictiveValues.png "Logo Title Text 1")
 
 Although clinical practice in glaucoma follows published guidelines, **variability in the diagnostic and management outcomes of glaucoma experts** cannot be excluded. In addition, direct comparisons of study results between the participating countries may not be appropriate due to the wide differences in the way primary eye healthcare is organised.
 
@@ -337,7 +337,7 @@ http://doi.org/10.2147/OPTH.S120398 | http://hdl.handle.net/10230/33481
 
 Glaucoma screening (optic disk tomography, nerve fiber analysis, and tonometry) and the conventional detection (in Spain) method had detection rates of 4.1% and 3.1%, respectively, and the cost per case detected was 1,410€ and 1,435€, respectively. The cost of screening 1 million inhabitants would be **5.1 million euros and would allow the detection of 4,715 new cases**. : The proposed screening method directed at population at risk allows a **detection rate of 4.1%** and a **cost of 1,410€ per case detected**.
 
-![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/anton2017_screeningCosts.png "Logo Title Text 1")
+![alt text](images/anton2017_screeningCosts.png "Logo Title Text 1")
 
 Nevertheless, **favorable** values of detection rate, positive predictive values (**53%** for screening and **21% for conventional detection**), and estimated **specificity (56%–75% for screening)** support the hypothesis that **glaucoma screening with imaging devices** improves the capabilities of conventional detection and **could be cost-effective**. The results also confirmed that the tested screening program **would improve** with a **better specificity** and, with this aim, present screening programs in our environment have been optimized through a better definition of target population (older age) and with the **use of updated imaging devices and parameters**.
 
@@ -346,7 +346,7 @@ https://doi.org/10.1016/j.ajo.2017.05.017
 
 *To develop, implement, and evaluate a replicable community-based screening intervention designed to improve glaucoma and other eye disease detection and follow-up care in high-risk populations in the United States. The most **common reasons for referral** were ungradable fundus image (39.3% of those referred), best-corrected VA < 20/40 (14.6%), and ungradable autorefraction (11.8%). Among people referred for definitive examination, 153 **43%) people attended their scheduled examination**. The most common diagnoses at the definitive examination were glaucoma and cataract (51% and 40%, respectively).*
 
-![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/zho2017_STOPtree.png "Logo Title Text 1")
+![alt text](images/zho2017_STOPtree.png "Logo Title Text 1")
 
 #### Jones et al. (2017): Gradually Then Suddenly? Decline in Vision-Related Quality of Life as Glaucoma Worsens
 https://doi.org/10.1155/2017/1621640
@@ -358,28 +358,28 @@ https://doi.org/10.1186/s12913-016-1849-9
 
 *Increasing VF monitoring at the earliest stages of follow-up for COAG appears to be cost-effective depending on reasonable assumptions about implementation costs. Our health economic model highlights benefits of stratifying patients to more or less monitoring based on age and stage of disease at diagnosis; a prospective study is needed to prove these findings. Further, this works highlights gaps in knowledge about long term costs of visual impairment.*
 
-![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/boodhnaCrabb2017_followupChange.png "Logo Title Text 1")
+![alt text](images/boodhnaCrabb2017_followupChange.png "Logo Title Text 1")
 
 #### Boodhna, T. (2017): Trends and health economic aspects of service delivery of glaucoma
 http://openaccess.city.ac.uk/17931/
 
-![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/boodhna2017_effectivenessPlane.png "Logo Title Text 1")
+![alt text](images/boodhna2017_effectivenessPlane.png "Logo Title Text 1")
 
 Markov-based model used in the health economics modelling with parameters taken from prior literature
 
-![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/boodhna2017_parametersHealthEconomicsModelling.png "Logo Title Text 1")
+![alt text](images/boodhna2017_parametersHealthEconomicsModelling.png "Logo Title Text 1")
 
-![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/boodhna2017_parametersTornadoPlot.png "Logo Title Text 1")
+![alt text](images/boodhna2017_parametersTornadoPlot.png "Logo Title Text 1")
 
 *[The incremental cost-effectiveness ratio (ICER)](https://en.wikipedia.org/wiki/Incremental_cost-effectiveness_ratio)*
 
 Updated parameters when taking into account the [MD changes over time](https://github.com/petteriTeikari/glaucoma_screening/wiki/Glaucoma-Statistics):
 
-![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/boodhna2017_parametersUpdated.png "Logo Title Text 1")
+![alt text](images/boodhna2017_parametersUpdated.png "Logo Title Text 1")
 
 Updated Tornado Plot
 
-![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/boodhna2017_parametersTornadoPlotUpdated.png "Logo Title Text 1")
+![alt text](images/boodhna2017_parametersTornadoPlotUpdated.png "Logo Title Text 1")
 
 --
 
@@ -388,7 +388,7 @@ http://dx.doi.org/10.1136/bjophthalmol-2017-311595
 
 To determine the **mortality within 20 years** of diagnosis of **chronic open-angle glaucoma (COAG)** and visual acuity and visual field progression of a cohort followed for 20 years.  In this cohort, approximately **two-thirds of patients with glaucoma died within 20 years of diagnosis**. In most older patients with glaucoma, the overall goal of **preventing visual handicap and blindness is achievable 20 years after diagnosis**.
 
-![alt text](https://github.com/petteriTeikari/glaucoma_screening/blob/master/images/king2017_survival.png "Logo Title Text 1")
+![alt text](images/king2017_survival.png "Logo Title Text 1")
 
 Glaucoma services will have to continue to expand to deal with this **increasing patient loa**d and the challenges of concomitant ophthalmic and medical co-pathologies in a more elderly population group. Importantly, IOP control can be maintained long term and many patients continue to have good visual acuity long into their disease. Technological advances in glaucoma assessment and treatment may assist further. However, it is concerning that **despite good IOP control**, **patients continue to have declining performance on visual field** testing. In order to prevent the functional sequelae of advancing visual field loss, decreased follow-up 
 intervals and more **aggressive management with lower target IOPs** might be required. More intensive investigation is not without significant cost implications, and **further health economic modelling** is required in this area to determine to which patient groups this should be targeted [Boodhna T and Crabb 2017](https://doi.org/10.1186/s12913-016-1849-9).
